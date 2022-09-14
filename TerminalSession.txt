@@ -1,1 +1,22 @@
-
+@JackyW19 ➜ /workspaces/cli-basics-JackyW19 (main) $ pwd
+/workspaces/cli-basics-JackyW19
+@JackyW19 ➜ /workspaces/cli-basics-JackyW19 (main) $ mkdir CLIBasicsFolder
+@JackyW19 ➜ /workspaces/cli-basics-JackyW19 (main) $ ls
+CLIBasicsFolder  README.md  TerminalSession.txt
+@JackyW19 ➜ /workspaces/cli-basics-JackyW19 (main) $ cd CLIBasicsFolder/
+@JackyW19 ➜ /workspaces/cli-basics-JackyW19/CLIBasicsFolder (main) $ touch myfile.txt
+@JackyW19 ➜ /workspaces/cli-basics-JackyW19/CLIBasicsFolder (main ✗) $ echo Jacky Wang ICS4Ub >> myfile.txt 
+@JackyW19 ➜ /workspaces/cli-basics-JackyW19/CLIBasicsFolder (main ✗) $ ls
+myfile.txt
+@JackyW19 ➜ /workspaces/cli-basics-JackyW19/CLIBasicsFolder (main ✗) $ cat myfile.txt 
+Jacky Wang ICS4Ub
+@JackyW19 ➜ /workspaces/cli-basics-JackyW19/CLIBasicsFolder (main ✗) $ cp myfile.txt myfile_copy.txt
+@JackyW19 ➜ /workspaces/cli-basics-JackyW19/CLIBasicsFolder (main ✗) $ mv myfile_copy.txt myfile2.txt
+@JackyW19 ➜ /workspaces/cli-basics-JackyW19/CLIBasicsFolder (main ✗) $ mv myfile2.txt ..
+@JackyW19 ➜ /workspaces/cli-basics-JackyW19/CLIBasicsFolder (main ✗) $ ls ..
+CLIBasicsFolder  myfile2.txt  README.md  TerminalSession.txt
+@JackyW19 ➜ /workspaces/cli-basics-JackyW19/CLIBasicsFolder (main ✗) $ cd ..
+@JackyW19 ➜ /workspaces/cli-basics-JackyW19 (main ✗) $ rm -r myfile2.txt 
+@JackyW19 ➜ /workspaces/cli-basics-JackyW19 (main ✗) $ rm -r CLIBasicsFolder/
+@JackyW19 ➜ /workspaces/cli-basics-JackyW19 (main) $ ls ..
+cli-basics-JackyW19
